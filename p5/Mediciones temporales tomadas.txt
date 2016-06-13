@@ -1,0 +1,138 @@
+Tiempo medio y mínimo (en milisegundos) que tarda en ejecutarse cada una de las siguientes acciones:
+
+                                                                        ArrayList                     LinkedList
+                                                                   Medio          Mínimo          Medio         Mínimo
+Test01: Insertar un elemento al final de la lista:               0.004692046     0.002052      0.003528657     0.002052
+Test02: Insertar un elemento al principio de la lista:           0.0036297531    0.002052      0.004003352     0.002052
+Test03: Insertar un elemento a mitad de la lista:                0.009419502     0.001026      0.001574963     0.001026
+Test04: Borrar el elemento que hay al final de la lista:         9.79155E-4        0.0          2.8687E-4         0.0    
+Test05: Borrar el elemento que hay al principio de la lista:     7.74908E-4        0.0         7.32315E-4         0.0    
+Test06: Borrar el elemento que hay en medio de la lista:         6.2198E-4         0.0         6.1941304E-4       0.0    
+Test07: Borrar el elemento que hay al final (por su valor):      2.50948E-4        0.0          2.50434E-4        0.0    
+Test08: Borrar el elemento que hay al principio (por su valor):  7.69777E-4        0.0         7.62079E-4         0.0     
+Test09: Borrar el elemento que hay en medio (por su valor):      5.6039705E-4      0.0         7.72856E-4         0.0       
+Test10: Vaciado completo de la lista:                            0.007322116      5.13E-4      8.05187E-4       5.13E-4
+Test11: Búsqueda de la existencia de un elemento en la lista:    0.012994857      0.001539     0.001777158      0.001539
+Test12_1: Búsqueda secuencial (elemento al principio):           0.026849298       0.0         0.021669215        0.0
+Test12_2: Búsqueda secuencial (elemento en medio):               0.0832416       0.01129       0.047352042        0.0
+Test12_3: Búsqueda secuencial (elemento al final):               0.047607612     0.002052      0.00387095       0.002052
+Test12_4: Búsqueda secuencial (elemento no existe):              0.027241372     0.015396      0.0010638309     5.13E-4
+Test13_1: Búsqueda binaria (elemento al principio):        
+Test13_2: Búsqueda binaria (elemento en medio):                   1.54E-6          0.0          1.539E-6          0.0
+Test13_3: Búsqueda binaria (elemento al final):                   1.027E-6         0.0          2.566E-6          0.0
+Test13_4: Búsqueda binaria (elemento no existe):        
+
+Test_Bubble01: Ordenar una lista aleatoria:                                         
+    Tiempo medio:   4.2605615 ms
+    Tiempo mínimo:  4.037222 ms
+
+Test_Bubble02: Ordenar una lista cuyos elementos están ya ordenados:                
+    Tiempo medio:   1.6026028 ms
+    Tiempo mínimo:  1.545198 ms
+
+Test_Bubble03: Ordenar una lista cuyos elementos están inversamente ordenados:      
+    Tiempo medio:   2.5771458 ms
+    Tiempo mínimo:  2.288803 ms
+
+Test_Bubble04: Ordenar una lista cuyos elementos sean todos iguales:                
+    Tiempo medio:   1.9600753 ms
+    Tiempo mínimo:  1.522104 ms
+
+Test_Selection01: Ordenar una lista aleatoria:                                         
+    Tiempo medio:   1.6194599 ms
+    Tiempo mínimo:  1.326069 ms
+
+Test_Selection02: Ordenar una lista cuyos elementos están ya ordenados:                
+    Tiempo medio:   1.3877468 ms
+    Tiempo mínimo:  1.184943 ms
+
+Test_Selection03: Ordenar una lista cuyos elementos están inversamente ordenados:      
+    Tiempo medio:   1.2419131 ms
+    Tiempo mínimo:  1.194181 ms
+
+Test_Selection04: Ordenar una lista cuyos elementos sean todos iguales:                
+    Tiempo medio:   1.2095742 ms
+    Tiempo mínimo:  1.150559 ms
+
+Test_Insertion01: Ordenar una lista aleatoria:                                         
+    Tiempo medio:   0.9180491 ms
+    Tiempo mínimo:  0.849833 ms
+
+Test_Insertion02: Ordenar una lista cuyos elementos están ya ordenados:                
+    Tiempo medio:   0.014620113 ms
+    Tiempo mínimo:  0.013855 ms
+
+Test_Insertion03: Ordenar una lista cuyos elementos están inversamente ordenados:      
+    Tiempo medio:   1.724503 ms
+    Tiempo mínimo:  1.66631 ms
+
+Test_Insertion04: Ordenar una lista cuyos elementos sean todos iguales:                
+    Tiempo medio:   0.014041753 ms
+    Tiempo mínimo:  0.012829 ms
+
+Test_Quick01: Ordenar una lista aleatoria:                                         
+    Tiempo medio:   0.44664448 ms
+    Tiempo mínimo:  0.0 ms
+
+Test_Quick02: Ordenar una lista cuyos elementos están ya ordenados:                
+    Tiempo medio:   0.14629452 ms
+    Tiempo mínimo:  0.0 ms
+
+Test_Quick03: Ordenar una lista cuyos elementos están inversamente ordenados:      
+    Tiempo medio:   0.16238697 ms
+    Tiempo mínimo:  0.0 ms
+
+Test_Quick04: Ordenar una lista cuyos elementos sean todos iguales:                
+    Tiempo medio:   0.18041308 ms
+    Tiempo mínimo:  0.0 ms
+
+Test_Binary01: Búesqueda en una lista aleatoria:                                               2.566E-6       0.0
+Test_Binary02: Búsqueda en una lista cuyos elementos están ya ordenados:                       1.539E-6       0.0
+Test_Binary03: Búsqueda en una lista cuyos elementos están inversamente ordenados:             1.54E-6        0.0
+Test_Binary04: Búsqueda en una lista cuyos elementos sean todos iguales:                       2.566E-6       5.13E-4
+
+Test_Sequential01: Búesqueda en una lista aleatoria:                                            0.015156904    0.0
+Test_Sequential02: Búsqueda en una lista cuyos elementos están ya ordenados:                    0.019606212    0.0
+Test_Sequential03: Búsqueda en una lista cuyos elementos están inversamente ordenados:          3.62821E-4     0.0
+Test_Sequential04: Búsqueda en una lista cuyos elementos sean todos iguales:                    0.048305027    0.0
+
+                                               Comparaciones        Accesos        Swaps
+Bubble01: Lista aleatoria:                        499500            1349914        175457
+Bubble02: Elementos ya ordenados:                 499500            999000        0
+Bubble03: Elementos inversamente ordenados:       499500            1998000        499500
+Bubble04: Elementos todos iguales:                499500            999000        0
+
+Selection01: Lista aleatoria:                       0               2350898         992
+Selection02: Elementos ya ordenados:                0               1998000         0
+Selection03: Elementos inversamente ordenados:      0               2998000         500
+Selection04: Elementos todos iguales:               0               1998000         0
+
+Insertion01: Lista aleatoria:                      242723            2838338         242723
+Insertion02: Elementos ya ordenados:               0                 1999998         0
+Insertion03: Elementos inversamente ordenados:     499500            3997999         499500
+Insertion04: Elementos todos iguales:              0                 1999998         0
+
+Quick01: Lista aleatoria:                          14030            2858536        2655
+Quick02: Elementos ya ordenados:                   9009            2010540        511
+Quick03: Elementos inversamente ordenados:         9016            4009546        1010
+Quick04: Elementos todos iguales:                  9096            2018701        4548
+
+Bubble01: Lista aleatoria:                           Ordenado correctamente
+Bubble02: Elementos ya ordenados:                    Ordenado correctamente
+Bubble03: Elementos inversamente ordenados:          Ordenado correctamente
+Bubble04: Elementos todos iguales:                   Ordenado correctamente
+
+Selection01: Lista aleatoria:                        Ordenado correctamente
+Selection02: Elementos ya ordenados:                 Ordenado correctamente
+Selection03: Elementos inversamente ordenados:       Ordenado correctamente
+Selection04: Elementos todos iguales:                Ordenado correctamente
+
+Insertion01: Lista aleatoria:                        Ordenado correctamente
+Insertion02: Elementos ya ordenados:                 Ordenado correctamente
+Insertion03: Elementos inversamente ordenados:       Ordenado correctamente
+Insertion04: Elementos todos iguales:                Ordenado correctamente
+
+Quick01: Lista aleatoria:                            Ordenado correctamente
+Quick02: Elementos ya ordenados:                     Ordenado correctamente
+Quick03: Elementos inversamente ordenados:           Ordenado correctamente
+Quick04: Elementos todos iguales:                    Ordenado correctamente
